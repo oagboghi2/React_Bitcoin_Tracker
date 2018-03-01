@@ -1,0 +1,9 @@
+.navbar-default {
+  background-color: orange;
+}
+
+.navbar-nav {
+  flex: auto;
+  justify-content: flex-end;
+  background-color: orange;
+}
