@@ -43,6 +43,7 @@ render(){
 
   return (
     <div>
+    <h6>Price of 1 bitcoin in USD is: {this.props.data}</h6>
       <h6>Please select a currency</h6>
       <select id = "selCurrency" onChange={this.fetchPrice}>
            <option default>Please select a currency</option>
